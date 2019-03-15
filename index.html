@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+
+<head>
+    <title>Min sida</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En sida om html">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">
+                        Tjänster
+                    </a></li>
+                    <li><a href="#">
+                        Produkter
+                    </a></li>
+                    <li><a href="#">
+                        Om oss
+                    </a></li>
+                    <li><a href="#login">
+                        Login
+                    </a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div>
+                <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nihil iure quam dicta delectus laudantium, neque recusandae autem placeat, similique ducimus aut voluptate a illo nesciunt ratione. Ducimus, rem quisquam.
+                </article>
+            </div>
+            <div>Text i mitten-divven i den första section.</div>
+            <div>
+                <aside>
+                    <table>
+                        <caption>Programspråk: Repos på Github</caption>
+                        <thead>
+                            <tr>
+                                <th>Språk
+                                    <th>Antal repos
+                                        <!-- Varför har jag inte avslutat th-taggarna? -->
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>JavaScript</td>
+                                <td>107 736</td>
+                            </tr>
+                            <tr>
+                                <td>Java</td>
+                                <td>73 455</td>
+                            </tr>
+                            <tr>
+                                <td>PHP</td>
+                                <td>48 543</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </aside>
+            </div>
+        </section>
+        <!-- <section>
+            <label for="us-states">Stat i USA</label>
+            <input type="text" list="us-states">
+            <datalist id="us-states">
+                <option value="texas">
+                <option value="tennessee">
+                <option value="washington">
+            </datalist>
+        </section>
+         -->
+        <section>
+            <article>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Ekorre_%C3%A4ter_kn%C3%A4ckebr%C3%B6d.jpg">
+                <h2 id="topRubrik">Rubrik</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3>Mellanrubrik</h3>
+                <p>Iusto ipsa consequuntur ducimus assumenda doloremque, repellendus et vitae ipsum, sit unde ratione eaque suscipit voluptatem officia exercitationem quae possimus reiciendis neque.</p>
+
+            </article>
+            <article>
+                <img src="https://www.publicdomainpictures.net/pictures/270000/nahled/squirrel-portrait-outdoors.jpg">
+                <h2>Rubrik</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3>Mellanrubrik</h3>
+                <p>Iusto ipsa consequuntur ducimus assumenda doloremque, repellendus et vitae ipsum, sit unde ratione eaque suscipit voluptatem officia exercitationem quae possimus reiciendis neque.</p>
+            </article>
+            <article>
+                <img src="img/Nordsvensk_ekorre.jpg">
+                <h2>Rubrik</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3>Mellanrubrik</h3>
+                <p>Iusto ipsa consequuntur ducimus assumenda doloremque, repellendus et vitae ipsum, sit unde ratione eaque suscipit voluptatem officia exercitationem quae possimus reiciendis neque.</p>
+            </article>
+        </section>
+        <section>
+            <code>
+                <p>var x = 0;</p>
+                <p>let y = x * 2;</p>
+                <div>
+                    <p>// Kommentar i koden</p>
+                </div>
+                <p>const z = document.getElementByID('adresser');</p>
+                <p>console.log(x);</p>
+            </code>
+        </section>
+        <footer>
+            <div>
+                <address>
+                    <a href="https://www.hulabeck.se">www.hulabeck.se</a>
+                    <a href="mailto:hans.andersson@zocom.se">hans.andersson@zocom.se</a>
+                    <a href="tel:+46731510171">+46 731 51 01 71</a>
+                </address>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <a href="#"><img class="socialImages" src="img/googleplus.png" alt=""></a>
+                        <!-- Varför alt? -->
+                    </div>
+                    <div>
+                        <a href="#"><img id="bestImage" src="img/linkedin.png" class="socialImages" alt=""></a>
+                    </div>
+                    <div>
+                        <a href="#"><img src="img/twitter.png" alt="" class="socialImages"></a>
+                    </div>
+                </div>
+            </div>
+            <div id="login">
+                <form action="" method="POST">
+                    <label for="userName">Användarnamn</label>
+                    <input type="text" name="userName" id="uName">
+                    <label for="password">Lösenord</label>
+                    <input type="password" name="password" id="pWord">
+                    <button>Logga in</button>
+                </form>
+            </div>
+
+        </footer>
+    </main>
+</body>
+
+</html>
