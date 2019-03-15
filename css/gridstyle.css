@@ -1,0 +1,65 @@
+main {
+    display: grid;
+    width: 100%;
+    height: 95vh;
+    grid-template-areas: "hd hd hd hd hd" "mn con con con as" "mn con2 con2 con2 con2";
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 2fr 5fr 3fr;
+}
+
+header,
+div,
+aside {
+    padding: 1em;
+}
+
+header {
+    background-color: blue;
+    grid-area: hd;
+}
+
+#sidemenu {
+    background-color: green;
+    grid-area: mn;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    grid-template-areas: "top top2" "bott bott2";
+}
+
+#sidemenu div {
+    border: 1px solid black;
+}
+
+#sidemenu div:nth-child(1) {
+    grid-area: top;
+}
+
+#sidemenu div:nth-child(2) {
+    grid-area: top2;
+}
+
+#sidemenu div:nth-child(3) {
+    grid-area: bott;
+    background-color: blueviolet;
+}
+
+#sidemenu div:last-child {
+    grid-area: bott2;
+    background-color: yellow;
+}
+
+.content,
+.con2 {
+    background-color: orange;
+    grid-area: con;
+}
+
+.con2 {
+    grid-area: con2;
+}
+
+aside {
+    background-color: pink;
+    grid-area: as;
+}
